@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		65B6DEF01A00B48100713462 /* round-button.png in Resources */ = {isa = PBXBuildFile; fileRef = 65B6DEEF1A00B48100713462 /* round-button.png */; };
 		65D4C6A519FB6A4A00F78E4B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 65D4C6A419FB6A4A00F78E4B /* main.m */; };
 		65D4C6A819FB6A4A00F78E4B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 65D4C6A719FB6A4A00F78E4B /* AppDelegate.m */; };
 		65D4C6AB19FB6A4A00F78E4B /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65D4C6AA19FB6A4A00F78E4B /* FirstViewController.m */; };
@@ -28,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		65B6DEEF1A00B48100713462 /* round-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "round-button.png"; path = "Images.xcassets/round-button.png"; sourceTree = "<group>"; };
 		65D4C69F19FB6A4A00F78E4B /* OpenCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65D4C6A319FB6A4A00F78E4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		65D4C6A419FB6A4A00F78E4B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -84,6 +86,7 @@
 		65D4C6A119FB6A4A00F78E4B /* OpenCalculator */ = {
 			isa = PBXGroup;
 			children = (
+				65B6DEEF1A00B48100713462 /* round-button.png */,
 				65D4C6A619FB6A4A00F78E4B /* AppDelegate.h */,
 				65D4C6A719FB6A4A00F78E4B /* AppDelegate.m */,
 				65D4C6A919FB6A4A00F78E4B /* FirstViewController.h */,
@@ -205,6 +208,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65B6DEF01A00B48100713462 /* round-button.png in Resources */,
 				65D4C6B119FB6A4A00F78E4B /* Main.storyboard in Resources */,
 				65D4C6B619FB6A4A00F78E4B /* LaunchScreen.xib in Resources */,
 				65D4C6B319FB6A4A00F78E4B /* Images.xcassets in Resources */,
@@ -423,6 +427,7 @@
 				65D4C6C719FB6A4A00F78E4B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		65D4C6C819FB6A4A00F78E4B /* Build configuration list for PBXNativeTarget "OpenCalculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -431,6 +436,7 @@
 				65D4C6CA19FB6A4A00F78E4B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
