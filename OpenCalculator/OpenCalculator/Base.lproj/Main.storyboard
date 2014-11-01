@@ -321,186 +321,186 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="tailTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GL0-aP-ycc" customClass="UIHexButton">
-                                <rect key="frame" x="0.0" y="68" width="60" height="60"/>
+                                <rect key="frame" x="32" y="54" width="68" height="68"/>
                                 <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="60"/>
                                 <inset key="contentEdgeInsets" minX="1" minY="6" maxX="0.0" maxY="0.0"/>
                                 <state key="normal" title="C">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="tailTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UBW-hu-9un">
-                                <rect key="frame" x="136" y="68" width="60" height="60"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="tailTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UBW-hu-9un" customClass="UIHexButton">
+                                <rect key="frame" x="146" y="54" width="68" height="68"/>
                                 <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="60"/>
                                 <inset key="contentEdgeInsets" minX="1" minY="6" maxX="0.0" maxY="0.0"/>
-                                <state key="normal" title="E" backgroundImage="round-button.png">
+                                <state key="normal" title="E">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="tailTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zKu-Xj-iqf">
-                                <rect key="frame" x="272" y="68" width="60" height="60"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="tailTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zKu-Xj-iqf" customClass="UIHexButton">
+                                <rect key="frame" x="3" y="103" width="68" height="68"/>
                                 <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="48"/>
                                 <inset key="contentEdgeInsets" minX="-2" minY="12" maxX="0.0" maxY="0.0"/>
-                                <state key="normal" title="➗" backgroundImage="round-button.png">
+                                <state key="normal" title="➗">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="tailTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U5R-Wp-a7f">
-                                <rect key="frame" x="0.0" y="0.0" width="60" height="60"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="tailTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U5R-Wp-a7f" customClass="UIHexButton">
+                                <rect key="frame" x="3" y="5" width="68" height="68"/>
                                 <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="60"/>
                                 <inset key="contentEdgeInsets" minX="0.0" minY="12" maxX="0.0" maxY="0.0"/>
-                                <state key="normal" title="✘" backgroundImage="round-button.png">
+                                <state key="normal" title="✘">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="tailTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fcO-Kx-78V">
-                                <rect key="frame" x="272" y="0.0" width="60" height="60"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="tailTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fcO-Kx-78V" customClass="UIHexButton">
+                                <rect key="frame" x="232" y="4" width="68" height="68"/>
                                 <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="60"/>
                                 <inset key="contentEdgeInsets" minX="3" minY="11" maxX="0.0" maxY="0.0"/>
-                                <state key="normal" title="✔︎" backgroundImage="round-button.png">
+                                <state key="normal" title="✔︎">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="tailTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KTG-i8-URk">
-                                <rect key="frame" x="0.0" y="136" width="60" height="60"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="tailTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KTG-i8-URk" customClass="UIHexButton">
+                                <rect key="frame" x="60" y="103" width="68" height="68"/>
                                 <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="60"/>
                                 <inset key="contentEdgeInsets" minX="1" minY="6" maxX="0.0" maxY="0.0"/>
-                                <state key="normal" title="8" backgroundImage="round-button.png">
+                                <state key="normal" title="8">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="tailTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BYW-zY-k6x">
-                                <rect key="frame" x="136" y="136" width="60" height="60"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="tailTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BYW-zY-k6x" customClass="UIHexButton">
+                                <rect key="frame" x="174" y="103" width="68" height="68"/>
                                 <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="60"/>
                                 <inset key="contentEdgeInsets" minX="1" minY="6" maxX="0.0" maxY="0.0"/>
-                                <state key="normal" title="A" backgroundImage="round-button.png">
+                                <state key="normal" title="A">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="tailTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L19-2f-faS">
-                                <rect key="frame" x="272" y="136" width="60" height="60"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="tailTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L19-2f-faS" customClass="UIHexButton">
+                                <rect key="frame" x="3" y="201" width="68" height="68"/>
                                 <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="48"/>
                                 <inset key="contentEdgeInsets" minX="-2" minY="12" maxX="0.0" maxY="0.0"/>
-                                <state key="normal" title="✖️" backgroundImage="round-button.png">
+                                <state key="normal" title="✖️">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="tailTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8CN-Jg-Eg1">
-                                <rect key="frame" x="0.0" y="204" width="60" height="60"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="tailTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8CN-Jg-Eg1" customClass="UIHexButton">
+                                <rect key="frame" x="32" y="152" width="68" height="68"/>
                                 <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="60"/>
                                 <inset key="contentEdgeInsets" minX="1" minY="6" maxX="0.0" maxY="0.0"/>
-                                <state key="normal" title="4" backgroundImage="round-button.png">
+                                <state key="normal" title="4">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="tailTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g8q-ek-Fop">
-                                <rect key="frame" x="136" y="204" width="60" height="60"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="tailTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g8q-ek-Fop" customClass="UIHexButton">
+                                <rect key="frame" x="146" y="152" width="68" height="68"/>
                                 <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="60"/>
                                 <inset key="contentEdgeInsets" minX="1" minY="6" maxX="0.0" maxY="0.0"/>
-                                <state key="normal" title="6" backgroundImage="round-button.png">
+                                <state key="normal" title="6">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="tailTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GzY-MN-hjg">
-                                <rect key="frame" x="272" y="204" width="60" height="60"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="tailTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GzY-MN-hjg" customClass="UIHexButton">
+                                <rect key="frame" x="260" y="54" width="68" height="68"/>
                                 <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="48"/>
                                 <inset key="contentEdgeInsets" minX="-2" minY="12" maxX="0.0" maxY="0.0"/>
-                                <state key="normal" title="➖" backgroundImage="round-button.png">
+                                <state key="normal" title="➖">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="tailTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="98n-P9-ehv">
-                                <rect key="frame" x="0.0" y="272" width="60" height="60"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="tailTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="98n-P9-ehv" customClass="UIHexButton">
+                                <rect key="frame" x="60" y="201" width="68" height="68"/>
                                 <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="60"/>
                                 <inset key="contentEdgeInsets" minX="1" minY="6" maxX="0.0" maxY="0.0"/>
-                                <state key="normal" title="0" backgroundImage="round-button.png">
+                                <state key="normal" title="0">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="tailTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Iyk-01-w3H">
-                                <rect key="frame" x="136" y="272" width="60" height="60"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="tailTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Iyk-01-w3H" customClass="UIHexButton">
+                                <rect key="frame" x="174" y="201" width="68" height="68"/>
                                 <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="60"/>
                                 <inset key="contentEdgeInsets" minX="1" minY="6" maxX="0.0" maxY="0.0"/>
-                                <state key="normal" title="2" backgroundImage="round-button.png">
+                                <state key="normal" title="2">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="tailTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AGa-uH-mAb">
-                                <rect key="frame" x="204" y="68" width="60" height="60"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="tailTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AGa-uH-mAb" customClass="UIHexButton">
+                                <rect key="frame" x="203" y="53" width="68" height="68"/>
                                 <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="60"/>
                                 <inset key="contentEdgeInsets" minX="1" minY="6" maxX="0.0" maxY="0.0"/>
-                                <state key="normal" title="F" backgroundImage="round-button.png">
+                                <state key="normal" title="F">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="tailTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Tr-7a-8Ug">
-                                <rect key="frame" x="204" y="136" width="60" height="60"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="tailTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Tr-7a-8Ug" customClass="UIHexButton">
+                                <rect key="frame" x="231" y="103" width="68" height="68"/>
                                 <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="60"/>
                                 <inset key="contentEdgeInsets" minX="1" minY="6" maxX="0.0" maxY="0.0"/>
-                                <state key="normal" title="B" backgroundImage="round-button.png">
+                                <state key="normal" title="B">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="tailTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9ve-BO-iCS">
-                                <rect key="frame" x="204" y="204" width="60" height="60"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="tailTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9ve-BO-iCS" customClass="UIHexButton">
+                                <rect key="frame" x="203" y="152" width="68" height="68"/>
                                 <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="60"/>
                                 <inset key="contentEdgeInsets" minX="1" minY="6" maxX="0.0" maxY="0.0"/>
-                                <state key="normal" title="7" backgroundImage="round-button.png">
+                                <state key="normal" title="7">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="tailTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iwH-dr-guo">
-                                <rect key="frame" x="204" y="272" width="60" height="60"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="tailTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iwH-dr-guo" customClass="UIHexButton">
+                                <rect key="frame" x="231" y="202" width="68" height="68"/>
                                 <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="60"/>
                                 <inset key="contentEdgeInsets" minX="1" minY="6" maxX="0.0" maxY="0.0"/>
-                                <state key="normal" title="3" backgroundImage="round-button.png">
+                                <state key="normal" title="3">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="tailTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kep-Wc-kSx">
-                                <rect key="frame" x="272" y="272" width="60" height="60"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="tailTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kep-Wc-kSx" customClass="UIHexButton">
+                                <rect key="frame" x="260" y="152" width="68" height="68"/>
                                 <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="48"/>
                                 <inset key="contentEdgeInsets" minX="-2" minY="12" maxX="0.0" maxY="0.0"/>
-                                <state key="normal" title="➕" backgroundImage="round-button.png">
+                                <state key="normal" title="➕">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="tailTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oQ6-yA-mTB">
-                                <rect key="frame" x="68" y="68" width="60" height="60"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="tailTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oQ6-yA-mTB" customClass="UIHexButton">
+                                <rect key="frame" x="89" y="54" width="68" height="68"/>
                                 <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="60"/>
                                 <inset key="contentEdgeInsets" minX="1" minY="6" maxX="0.0" maxY="0.0"/>
-                                <state key="normal" title="D" backgroundImage="round-button.png">
+                                <state key="normal" title="D">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="tailTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Dd-rg-JAg">
-                                <rect key="frame" x="68" y="136" width="60" height="60"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="tailTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Dd-rg-JAg" customClass="UIHexButton">
+                                <rect key="frame" x="117" y="103" width="68" height="68"/>
                                 <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="60"/>
                                 <inset key="contentEdgeInsets" minX="1" minY="6" maxX="0.0" maxY="0.0"/>
-                                <state key="normal" title="9" backgroundImage="round-button.png">
+                                <state key="normal" title="9">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="tailTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qxn-Sd-5Yv">
-                                <rect key="frame" x="68" y="204" width="60" height="60"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="tailTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qxn-Sd-5Yv" customClass="UIHexButton">
+                                <rect key="frame" x="89" y="152" width="68" height="68"/>
                                 <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="60"/>
                                 <inset key="contentEdgeInsets" minX="1" minY="6" maxX="0.0" maxY="0.0"/>
-                                <state key="normal" title="5" backgroundImage="round-button.png">
+                                <state key="normal" title="5">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="tailTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hS0-nY-uwu">
-                                <rect key="frame" x="68" y="272" width="60" height="60"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="tailTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hS0-nY-uwu" customClass="UIHexButton">
+                                <rect key="frame" x="117" y="201" width="68" height="68"/>
                                 <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="60"/>
                                 <inset key="contentEdgeInsets" minX="1" minY="6" maxX="0.0" maxY="0.0"/>
-                                <state key="normal" title="1" backgroundImage="round-button.png">
+                                <state key="normal" title="1">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="tailTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6A3-qw-FEW">
-                                <rect key="frame" x="204" y="0.0" width="60" height="60"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="tailTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6A3-qw-FEW" customClass="UIHexButton">
+                                <rect key="frame" x="260" y="251" width="68" height="68"/>
                                 <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="60"/>
                                 <inset key="contentEdgeInsets" minX="1" minY="6" maxX="0.0" maxY="0.0"/>
-                                <state key="normal" title="=" backgroundImage="round-button.png">
+                                <state key="normal" title="=">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                             </button>
