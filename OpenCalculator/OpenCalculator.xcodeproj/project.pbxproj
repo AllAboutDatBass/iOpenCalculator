@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		65B6DEF01A00B48100713462 /* round-button.png in Resources */ = {isa = PBXBuildFile; fileRef = 65B6DEEF1A00B48100713462 /* round-button.png */; };
+		65C2AC681A04C038008F2816 /* UIHexButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 65C2AC671A04C038008F2816 /* UIHexButton.m */; };
 		65D4C6A519FB6A4A00F78E4B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 65D4C6A419FB6A4A00F78E4B /* main.m */; };
 		65D4C6A819FB6A4A00F78E4B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 65D4C6A719FB6A4A00F78E4B /* AppDelegate.m */; };
 		65D4C6AB19FB6A4A00F78E4B /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65D4C6AA19FB6A4A00F78E4B /* FirstViewController.m */; };
@@ -30,6 +31,8 @@
 
 /* Begin PBXFileReference section */
 		65B6DEEF1A00B48100713462 /* round-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "round-button.png"; path = "Images.xcassets/round-button.png"; sourceTree = "<group>"; };
+		65C2AC661A04C038008F2816 /* UIHexButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIHexButton.h; sourceTree = "<group>"; };
+		65C2AC671A04C038008F2816 /* UIHexButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIHexButton.m; sourceTree = "<group>"; };
 		65D4C69F19FB6A4A00F78E4B /* OpenCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65D4C6A319FB6A4A00F78E4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		65D4C6A419FB6A4A00F78E4B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -97,6 +100,8 @@
 				65D4C6B219FB6A4A00F78E4B /* Images.xcassets */,
 				65D4C6B419FB6A4A00F78E4B /* LaunchScreen.xib */,
 				65D4C6A219FB6A4A00F78E4B /* Supporting Files */,
+				65C2AC661A04C038008F2816 /* UIHexButton.h */,
+				65C2AC671A04C038008F2816 /* UIHexButton.m */,
 			);
 			path = OpenCalculator;
 			sourceTree = "<group>";
@@ -232,6 +237,7 @@
 				65D4C6AE19FB6A4A00F78E4B /* SecondViewController.m in Sources */,
 				65D4C6A819FB6A4A00F78E4B /* AppDelegate.m in Sources */,
 				65D4C6AB19FB6A4A00F78E4B /* FirstViewController.m in Sources */,
+				65C2AC681A04C038008F2816 /* UIHexButton.m in Sources */,
 				65D4C6A519FB6A4A00F78E4B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

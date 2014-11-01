@@ -320,11 +320,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="332" height="332"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="tailTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GL0-aP-ycc">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="tailTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GL0-aP-ycc" customClass="UIHexButton">
                                 <rect key="frame" x="0.0" y="68" width="60" height="60"/>
                                 <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="60"/>
                                 <inset key="contentEdgeInsets" minX="1" minY="6" maxX="0.0" maxY="0.0"/>
-                                <state key="normal" title="C" backgroundImage="round-button.png">
+                                <state key="normal" title="C">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                             </button>
