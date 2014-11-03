@@ -18,6 +18,8 @@ IB_DESIGNABLE
 @interface UIHexButton : UIButton
 {
 	CGPoint vertices[HEXAGON_VERTICES];
+  CGPoint lastPointInside;
+  BOOL lastPointInsideResult;
 }
 
 @end

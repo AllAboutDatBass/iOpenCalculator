@@ -38,6 +38,47 @@
 	[super drawRect:rect];
 }
 
+// restrict hitTest operations to points within the hexagon:
+- (BOOL)pointInside:(CGPoint)point withEvent:(UIEvent *)event
+{
+    // Return FALSE if superclass does:
+    if (![super pointInside:point withEvent:event])
+		{
+			return FALSE;
+		}
+	
+    // repeat last reply if last test point was repeated:
+    if (CGPointEqualToPoint(point, lastPointInside))
+		{
+			return lastPointInsideResult;
+    }
+		else
+		{
+			// cache current test point:
+			lastPointInside = point;
+    }
+
+		// determine point falls within polygon:
+		BOOL response = FALSE;
+		int east = (HEXAGON_VERTICES - 1);
+		for (int west = 0; west < HEXAGON_VERTICES; east = west++)
+		{
+			if (((vertices[west].y > point.y) != (vertices[east].y > point.y)) &&
+				(point.x < (vertices[east].x - vertices[west].x) *
+				(point.y - vertices[west].y) /
+				(vertices[east].y - vertices[west].y) +
+				vertices[west].x))
+			{
+				response = (!response);
+			}
+		}
+	
+		// cache current response:
+		lastPointInsideResult = response;
+	
+		return response;
+}
+
 -(void)fillHexagon
 {
 	CGContextRef context = UIGraphicsGetCurrentContext();
