@@ -344,22 +344,6 @@
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="tailTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U5R-Wp-a7f" customClass="UIHexButton">
-                                <rect key="frame" x="3" y="5" width="68" height="68"/>
-                                <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="60"/>
-                                <inset key="contentEdgeInsets" minX="0.0" minY="12" maxX="0.0" maxY="0.0"/>
-                                <state key="normal" title="✘">
-                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="tailTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fcO-Kx-78V" customClass="UIHexButton">
-                                <rect key="frame" x="232" y="4" width="68" height="68"/>
-                                <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="60"/>
-                                <inset key="contentEdgeInsets" minX="3" minY="11" maxX="0.0" maxY="0.0"/>
-                                <state key="normal" title="✔︎">
-                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
-                                </state>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="tailTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KTG-i8-URk" customClass="UIHexButton">
                                 <rect key="frame" x="60" y="103" width="68" height="68"/>
                                 <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="60"/>

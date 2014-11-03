@@ -10,6 +10,14 @@
 
 IB_DESIGNABLE
 
+#define HEXAGON_VERTICES 6
+
+// rotated slightly to the right for better alignment:
+#define HEXAGON_START_ANGLE 0.52
+
 @interface UIHexButton : UIButton
+{
+	CGPoint vertices[HEXAGON_VERTICES];
+}
 
 @end

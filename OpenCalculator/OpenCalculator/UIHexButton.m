@@ -12,14 +12,54 @@
 
 -(void)drawRect:(CGRect)rect
 {
-	const CGFloat vertices = 6;
-
-	const CGFloat nextVertex = 2.0 * M_PI / vertices;
+	const CGFloat nextVertex = 2.0 * M_PI / HEXAGON_VERTICES;
 
 	CGPoint origin = CGPointMake(
 		rect.origin.x + (rect.size.width  / 2),
 		rect.origin.y + (rect.size.height / 2));
 	
+	CGFloat radius = ((rect.size.height - 2) / 2);
+	
+	CGFloat angle = HEXAGON_START_ANGLE;
+	
+	for (int vertex = 0; vertex < HEXAGON_VERTICES; vertex++)
+	{
+		vertices[vertex] = CGPointMake(
+			radius * cos(angle) + origin.x,
+			radius * sin(angle) + origin.y);
+		
+		angle += nextVertex;
+	}
+	
+	[self fillHexagon];
+	
+	[self drawHexagon];
+	
+	[super drawRect:rect];
+}
+
+-(void)fillHexagon
+{
+	CGContextRef context = UIGraphicsGetCurrentContext();
+	
+  CGContextSetRGBFillColor(context, 0, 0, 1, 0.1);
+
+	CGContextBeginPath(context);
+
+	CGContextMoveToPoint(context, vertices[0].x, vertices[0].y);
+
+	for (int vertex = 1; vertex < HEXAGON_VERTICES; vertex++)
+	{
+		CGContextAddLineToPoint(context, vertices[vertex].x, vertices[vertex].y);
+	}
+	
+	CGContextClosePath(context);
+	
+  CGContextFillPath(context);
+}
+
+-(void)drawHexagon
+{
 	CGContextRef context = UIGraphicsGetCurrentContext();
 	
 	CGContextSetLineWidth(context, 1);
@@ -28,31 +68,20 @@
 		context,
 		[UIColor colorWithWhite:0.0 alpha:1.0].CGColor);
 
-	CGFloat radius = ((rect.size.height - 2) / 2);
-	
-	// rotated slightly to the right for better alignment:
-	CGFloat angle = 0.52;
-	
-	CGPoint endPoint = CGPointMake(
-		radius * cos(angle) + origin.x,
-		radius * sin(angle) + origin.y);
+	CGContextBeginPath(context);
 
-	CGContextMoveToPoint(context, endPoint.x, endPoint.y);
+	CGContextMoveToPoint(context, vertices[0].x, vertices[0].y);
 
-	for (int vertex = 0; vertex < vertices; vertex++)
+	for (int vertex = 1; vertex < HEXAGON_VERTICES; vertex++)
 	{
-		angle += nextVertex;
-
-		endPoint = CGPointMake(
-			radius * cos(angle) + origin.x,
-			radius * sin(angle) + origin.y);
-
-		CGContextAddLineToPoint(context, endPoint.x, endPoint.y);
+		CGContextAddLineToPoint(context, vertices[vertex].x, vertices[vertex].y);
 	}
 	
-	CGContextStrokePath(context);
+	CGContextClosePath(context);
 	
-	[super drawRect:rect];
+	CGContextStrokePath(context);
 }
+
+
 
 @end
