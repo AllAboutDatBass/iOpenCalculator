@@ -1,7 +1,7 @@
 iOpenCalculator
 ===============
 
-Source code for the iOS version of OpenCalc
+Source code for the iOS version of Crunchulator
 
 Current Features
 ----------------
