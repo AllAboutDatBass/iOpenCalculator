@@ -33,7 +33,7 @@
 		65B6DEEF1A00B48100713462 /* round-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "round-button.png"; path = "Images.xcassets/round-button.png"; sourceTree = "<group>"; };
 		65C2AC661A04C038008F2816 /* UIHexButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIHexButton.h; sourceTree = "<group>"; };
 		65C2AC671A04C038008F2816 /* UIHexButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIHexButton.m; sourceTree = "<group>"; };
-		65D4C69F19FB6A4A00F78E4B /* OpenCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		65D4C69F19FB6A4A00F78E4B /* OpenCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65D4C6A319FB6A4A00F78E4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		65D4C6A419FB6A4A00F78E4B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		65D4C6A619FB6A4A00F78E4B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -45,7 +45,7 @@
 		65D4C6B019FB6A4A00F78E4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		65D4C6B219FB6A4A00F78E4B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		65D4C6B519FB6A4A00F78E4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		65D4C6BB19FB6A4A00F78E4B /* OpenCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		65D4C6BB19FB6A4A00F78E4B /* OpenCalcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenCalcTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		65D4C6C019FB6A4A00F78E4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		65D4C6C119FB6A4A00F78E4B /* OpenCalculatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenCalculatorTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -80,8 +80,8 @@
 		65D4C6A019FB6A4A00F78E4B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				65D4C69F19FB6A4A00F78E4B /* OpenCalculator.app */,
-				65D4C6BB19FB6A4A00F78E4B /* OpenCalculatorTests.xctest */,
+				65D4C69F19FB6A4A00F78E4B /* OpenCalc.app */,
+				65D4C6BB19FB6A4A00F78E4B /* OpenCalcTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -135,9 +135,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		65D4C69E19FB6A4A00F78E4B /* OpenCalculator */ = {
+		65D4C69E19FB6A4A00F78E4B /* OpenCalc */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 65D4C6C519FB6A4A00F78E4B /* Build configuration list for PBXNativeTarget "OpenCalculator" */;
+			buildConfigurationList = 65D4C6C519FB6A4A00F78E4B /* Build configuration list for PBXNativeTarget "OpenCalc" */;
 			buildPhases = (
 				65D4C69B19FB6A4A00F78E4B /* Sources */,
 				65D4C69C19FB6A4A00F78E4B /* Frameworks */,
@@ -147,14 +147,14 @@
 			);
 			dependencies = (
 			);
-			name = OpenCalculator;
+			name = OpenCalc;
 			productName = OpenCalculator;
-			productReference = 65D4C69F19FB6A4A00F78E4B /* OpenCalculator.app */;
+			productReference = 65D4C69F19FB6A4A00F78E4B /* OpenCalc.app */;
 			productType = "com.apple.product-type.application";
 		};
-		65D4C6BA19FB6A4A00F78E4B /* OpenCalculatorTests */ = {
+		65D4C6BA19FB6A4A00F78E4B /* OpenCalcTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 65D4C6C819FB6A4A00F78E4B /* Build configuration list for PBXNativeTarget "OpenCalculatorTests" */;
+			buildConfigurationList = 65D4C6C819FB6A4A00F78E4B /* Build configuration list for PBXNativeTarget "OpenCalcTests" */;
 			buildPhases = (
 				65D4C6B719FB6A4A00F78E4B /* Sources */,
 				65D4C6B819FB6A4A00F78E4B /* Frameworks */,
@@ -165,9 +165,9 @@
 			dependencies = (
 				65D4C6BD19FB6A4A00F78E4B /* PBXTargetDependency */,
 			);
-			name = OpenCalculatorTests;
+			name = OpenCalcTests;
 			productName = OpenCalculatorTests;
-			productReference = 65D4C6BB19FB6A4A00F78E4B /* OpenCalculatorTests.xctest */;
+			productReference = 65D4C6BB19FB6A4A00F78E4B /* OpenCalcTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -189,7 +189,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 65D4C69A19FB6A4A00F78E4B /* Build configuration list for PBXProject "OpenCalculator" */;
+			buildConfigurationList = 65D4C69A19FB6A4A00F78E4B /* Build configuration list for PBXProject "OpenCalc" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -202,8 +202,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				65D4C69E19FB6A4A00F78E4B /* OpenCalculator */,
-				65D4C6BA19FB6A4A00F78E4B /* OpenCalculatorTests */,
+				65D4C69E19FB6A4A00F78E4B /* OpenCalc */,
+				65D4C6BA19FB6A4A00F78E4B /* OpenCalcTests */,
 			);
 		};
 /* End PBXProject section */
@@ -255,7 +255,7 @@
 /* Begin PBXTargetDependency section */
 		65D4C6BD19FB6A4A00F78E4B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 65D4C69E19FB6A4A00F78E4B /* OpenCalculator */;
+			target = 65D4C69E19FB6A4A00F78E4B /* OpenCalc */;
 			targetProxy = 65D4C6BC19FB6A4A00F78E4B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -365,7 +365,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = OpenCalculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = OpenCalc;
 			};
 			name = Debug;
 		};
@@ -376,7 +376,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = OpenCalculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = OpenCalc;
 			};
 			name = Release;
 		};
@@ -394,8 +394,8 @@
 				);
 				INFOPLIST_FILE = OpenCalculatorTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenCalculator.app/OpenCalculator";
+				PRODUCT_NAME = OpenCalcTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenCalc.app/OpenCalc";
 			};
 			name = Debug;
 		};
@@ -409,15 +409,15 @@
 				);
 				INFOPLIST_FILE = OpenCalculatorTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenCalculator.app/OpenCalculator";
+				PRODUCT_NAME = OpenCalcTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenCalc.app/OpenCalc";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		65D4C69A19FB6A4A00F78E4B /* Build configuration list for PBXProject "OpenCalculator" */ = {
+		65D4C69A19FB6A4A00F78E4B /* Build configuration list for PBXProject "OpenCalc" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				65D4C6C319FB6A4A00F78E4B /* Debug */,
@@ -426,7 +426,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		65D4C6C519FB6A4A00F78E4B /* Build configuration list for PBXNativeTarget "OpenCalculator" */ = {
+		65D4C6C519FB6A4A00F78E4B /* Build configuration list for PBXNativeTarget "OpenCalc" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				65D4C6C619FB6A4A00F78E4B /* Debug */,
@@ -435,7 +435,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		65D4C6C819FB6A4A00F78E4B /* Build configuration list for PBXNativeTarget "OpenCalculatorTests" */ = {
+		65D4C6C819FB6A4A00F78E4B /* Build configuration list for PBXNativeTarget "OpenCalcTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				65D4C6C919FB6A4A00F78E4B /* Debug */,
