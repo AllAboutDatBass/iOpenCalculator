@@ -24,5 +24,6 @@ IB_DESIGNABLE
 
 @property (nonatomic) IBInspectable UIColor* lineColor;
 @property (nonatomic) IBInspectable UIColor* fillColor;
+@property (nonatomic) IBInspectable NSInteger lineWidth;
 
 @end
