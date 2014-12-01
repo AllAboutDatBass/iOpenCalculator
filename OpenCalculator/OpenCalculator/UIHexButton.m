@@ -83,7 +83,8 @@
 {
 	CGContextRef context = UIGraphicsGetCurrentContext();
 	
-  CGContextSetRGBFillColor(context, 0, 0, 1, 0.1);
+	[_fillColor set];
+	//CGContextSetRGBFillColor(context, 0, 0, 1, 0.1);
 
 	CGContextBeginPath(context);
 
@@ -105,9 +106,10 @@
 	
 	CGContextSetLineWidth(context, 1);
 	
-	CGContextSetStrokeColorWithColor(
-		context,
-		[UIColor colorWithWhite:0.0 alpha:1.0].CGColor);
+	[_lineColor set];
+	//CGContextSetStrokeColorWithColor(
+	//	context,
+	//	[UIColor colorWithWhite:0.0 alpha:1.0].CGColor);
 
 	CGContextBeginPath(context);
 

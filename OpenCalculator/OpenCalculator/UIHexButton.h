@@ -22,4 +22,7 @@ IB_DESIGNABLE
   BOOL lastPointInsideResult;
 }
 
+@property (nonatomic) IBInspectable UIColor* lineColor;
+@property (nonatomic) IBInspectable UIColor* fillColor;
+
 @end
