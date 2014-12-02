@@ -23,15 +23,21 @@
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="right" lineBreakMode="wordWrap" numberOfLines="999" minimumFontSize="14" translatesAutoresizingMaskIntoConstraints="NO" id="Lku-ng-WIM">
                                 <rect key="frame" x="0.0" y="20" width="600" height="48"/>
+                                <color key="backgroundColor" red="0.90196079015731812" green="0.90196079015731812" blue="0.90196079015731812" alpha="1" colorSpace="calibratedRGB"/>
                                 <string key="text">- 123.4 +
   123.4 =
   000.0 :</string>
+                                <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="14"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="- 786.0 M" textAlignment="right" lineBreakMode="wordWrap" minimumFontSize="14" translatesAutoresizingMaskIntoConstraints="NO" id="O2g-Wl-UaB">
+                                <rect key="frame" x="0.0" y="68" width="600" height="18"/>
                                 <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="14"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <containerView opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SCP-j1-2ho">
-                                <rect key="frame" x="108" y="67" width="384" height="480"/>
+                                <rect key="frame" x="108" y="85" width="384" height="366"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <connections>
                                     <segue destination="BMb-YT-D1X" kind="embed" id="UCd-AI-8lO"/>
@@ -44,8 +50,10 @@
                             <constraint firstItem="CPA-mw-7Sm" firstAttribute="leading" secondItem="kHt-Ek-9PR" secondAttribute="leadingMargin" constant="-16" id="O7X-cb-ryj"/>
                             <constraint firstItem="CPA-mw-7Sm" firstAttribute="top" secondItem="kHt-Ek-9PR" secondAttribute="topMargin" id="SmG-bY-M5c"/>
                             <constraint firstAttribute="trailingMargin" secondItem="Lku-ng-WIM" secondAttribute="trailing" constant="-16" id="Uqh-YT-ow3"/>
+                            <constraint firstItem="O2g-Wl-UaB" firstAttribute="leading" secondItem="kHt-Ek-9PR" secondAttribute="leadingMargin" constant="-16" id="YCr-YV-4LZ"/>
                             <constraint firstItem="Lku-ng-WIM" firstAttribute="leading" secondItem="kHt-Ek-9PR" secondAttribute="leadingMargin" constant="-16" id="dFF-kP-aI9"/>
                             <constraint firstAttribute="centerX" secondItem="SCP-j1-2ho" secondAttribute="centerX" id="ddm-7g-roq"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="O2g-Wl-UaB" secondAttribute="trailing" constant="-16" id="mcz-86-Fms"/>
                             <constraint firstItem="Lku-ng-WIM" firstAttribute="top" secondItem="gA5-xW-xoY" secondAttribute="bottom" id="slP-pj-Xre"/>
                         </constraints>
                     </view>
@@ -64,11 +72,11 @@
                         <viewControllerLayoutGuide type="bottom" id="es1-v8-fJT"/>
                     </layoutGuides>
                     <view key="view" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="RbZ-dH-ZBf">
-                        <rect key="frame" x="0.0" y="0.0" width="384" height="480"/>
+                        <rect key="frame" x="0.0" y="0.0" width="384" height="366"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="tailTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KTG-i8-URk" customClass="UIHexButton">
-                                <rect key="frame" x="155" y="110" width="74" height="74"/>
+                                <rect key="frame" x="155" y="91" width="74" height="74"/>
                                 <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="60"/>
                                 <inset key="contentEdgeInsets" minX="1" minY="6" maxX="0.0" maxY="0.0"/>
                                 <state key="normal" title="8">
@@ -87,7 +95,7 @@
                                 </userDefinedRuntimeAttributes>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="tailTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8CN-Jg-Eg1" customClass="UIHexButton">
-                                <rect key="frame" x="123" y="165" width="74" height="74"/>
+                                <rect key="frame" x="123" y="146" width="74" height="74"/>
                                 <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="60"/>
                                 <inset key="contentEdgeInsets" minX="1" minY="6" maxX="0.0" maxY="0.0"/>
                                 <state key="normal" title="4">
@@ -106,7 +114,7 @@
                                 </userDefinedRuntimeAttributes>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="tailTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g8q-ek-Fop" customClass="UIHexButton">
-                                <rect key="frame" x="251" y="165" width="74" height="74"/>
+                                <rect key="frame" x="251" y="146" width="74" height="74"/>
                                 <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="60"/>
                                 <inset key="contentEdgeInsets" minX="1" minY="6" maxX="0.0" maxY="0.0"/>
                                 <state key="normal" title="6">
@@ -125,7 +133,7 @@
                                 </userDefinedRuntimeAttributes>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="tailTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="98n-P9-ehv" customClass="UIHexButton">
-                                <rect key="frame" x="59" y="165" width="74" height="74"/>
+                                <rect key="frame" x="59" y="146" width="74" height="74"/>
                                 <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="60"/>
                                 <inset key="contentEdgeInsets" minX="1" minY="6" maxX="0.0" maxY="0.0"/>
                                 <state key="normal" title="0">
@@ -144,7 +152,7 @@
                                 </userDefinedRuntimeAttributes>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="tailTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Iyk-01-w3H" customClass="UIHexButton">
-                                <rect key="frame" x="155" y="220" width="74" height="74"/>
+                                <rect key="frame" x="155" y="201" width="74" height="74"/>
                                 <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="60"/>
                                 <inset key="contentEdgeInsets" minX="1" minY="6" maxX="0.0" maxY="0.0"/>
                                 <state key="normal" title="2">
@@ -163,7 +171,7 @@
                                 </userDefinedRuntimeAttributes>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="tailTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9ve-BO-iCS" customClass="UIHexButton">
-                                <rect key="frame" x="91" y="110" width="74" height="74"/>
+                                <rect key="frame" x="91" y="91" width="74" height="74"/>
                                 <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="60"/>
                                 <inset key="contentEdgeInsets" minX="1" minY="6" maxX="0.0" maxY="0.0"/>
                                 <state key="normal" title="7">
@@ -182,7 +190,7 @@
                                 </userDefinedRuntimeAttributes>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="tailTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fLG-uo-DHJ" customClass="UIHexButton">
-                                <rect key="frame" x="59" y="55" width="74" height="74"/>
+                                <rect key="frame" x="59" y="36" width="74" height="74"/>
                                 <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="43"/>
                                 <inset key="contentEdgeInsets" minX="2" minY="2" maxX="0.0" maxY="0.0"/>
                                 <state key="normal" title="UD">
@@ -201,7 +209,7 @@
                                 </userDefinedRuntimeAttributes>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="tailTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vsM-tO-3Nl" customClass="UIHexButton">
-                                <rect key="frame" x="27" y="0.0" width="74" height="74"/>
+                                <rect key="frame" x="27" y="-19" width="74" height="74"/>
                                 <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="43"/>
                                 <inset key="contentEdgeInsets" minX="2" minY="2" maxX="0.0" maxY="0.0"/>
                                 <state key="normal" title="MC">
@@ -220,7 +228,7 @@
                                 </userDefinedRuntimeAttributes>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="tailTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aau-H5-HOP" customClass="UIHexButton">
-                                <rect key="frame" x="91" y="0.0" width="74" height="74"/>
+                                <rect key="frame" x="91" y="-19" width="74" height="74"/>
                                 <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="43"/>
                                 <inset key="contentEdgeInsets" minX="2" minY="2" maxX="0.0" maxY="0.0"/>
                                 <state key="normal" title="MR">
@@ -239,7 +247,7 @@
                                 </userDefinedRuntimeAttributes>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="tailTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XCP-Gr-FOR" customClass="UIHexButton">
-                                <rect key="frame" x="155" y="0.0" width="74" height="74"/>
+                                <rect key="frame" x="155" y="-19" width="74" height="74"/>
                                 <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="43"/>
                                 <inset key="contentEdgeInsets" minX="2" minY="2" maxX="0.0" maxY="0.0"/>
                                 <state key="normal" title="M+">
@@ -258,7 +266,7 @@
                                 </userDefinedRuntimeAttributes>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="tailTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fC6-Vh-fYz" customClass="UIHexButton">
-                                <rect key="frame" x="219" y="0.0" width="74" height="74"/>
+                                <rect key="frame" x="219" y="-19" width="74" height="74"/>
                                 <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="43"/>
                                 <inset key="contentEdgeInsets" minX="2" minY="2" maxX="0.0" maxY="0.0"/>
                                 <state key="normal" title="M-">
@@ -277,7 +285,7 @@
                                 </userDefinedRuntimeAttributes>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="tailTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ukP-FQ-ycM" customClass="UIHexButton">
-                                <rect key="frame" x="283" y="0.0" width="74" height="74"/>
+                                <rect key="frame" x="283" y="-19" width="74" height="74"/>
                                 <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="43"/>
                                 <inset key="contentEdgeInsets" minX="2" minY="2" maxX="0.0" maxY="0.0"/>
                                 <state key="normal" title="VA">
@@ -296,7 +304,7 @@
                                 </userDefinedRuntimeAttributes>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="tailTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="thC-qh-zwd" customClass="UIHexButton">
-                                <rect key="frame" x="251" y="55" width="74" height="74"/>
+                                <rect key="frame" x="251" y="36" width="74" height="74"/>
                                 <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="43"/>
                                 <inset key="contentEdgeInsets" minX="2" minY="2" maxX="0.0" maxY="0.0"/>
                                 <state key="normal" title="RD">
@@ -315,7 +323,7 @@
                                 </userDefinedRuntimeAttributes>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="tailTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6ac-k3-oOz" customClass="UIHexButton">
-                                <rect key="frame" x="123" y="55" width="74" height="74"/>
+                                <rect key="frame" x="123" y="36" width="74" height="74"/>
                                 <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="43"/>
                                 <inset key="contentEdgeInsets" minX="2" minY="2" maxX="0.0" maxY="0.0"/>
                                 <state key="normal" title="CE">
@@ -334,7 +342,7 @@
                                 </userDefinedRuntimeAttributes>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="tailTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HAe-DB-uVp" customClass="UIHexButton">
-                                <rect key="frame" x="187" y="55" width="74" height="74"/>
+                                <rect key="frame" x="187" y="36" width="74" height="74"/>
                                 <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="43"/>
                                 <inset key="contentEdgeInsets" minX="2" minY="2" maxX="0.0" maxY="0.0"/>
                                 <state key="normal" title="CA">
@@ -353,7 +361,7 @@
                                 </userDefinedRuntimeAttributes>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="tailTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iwH-dr-guo" customClass="UIHexButton">
-                                <rect key="frame" x="219" y="220" width="74" height="74"/>
+                                <rect key="frame" x="219" y="201" width="74" height="74"/>
                                 <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="60"/>
                                 <inset key="contentEdgeInsets" minX="1" minY="6" maxX="0.0" maxY="0.0"/>
                                 <state key="normal" title="3">
@@ -372,7 +380,7 @@
                                 </userDefinedRuntimeAttributes>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="tailTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Dd-rg-JAg" customClass="UIHexButton">
-                                <rect key="frame" x="219" y="110" width="74" height="74"/>
+                                <rect key="frame" x="219" y="91" width="74" height="74"/>
                                 <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="60"/>
                                 <inset key="contentEdgeInsets" minX="1" minY="6" maxX="0.0" maxY="0.0"/>
                                 <state key="normal" title="9">
@@ -391,7 +399,7 @@
                                 </userDefinedRuntimeAttributes>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="tailTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qxn-Sd-5Yv" customClass="UIHexButton">
-                                <rect key="frame" x="187" y="165" width="74" height="74"/>
+                                <rect key="frame" x="187" y="146" width="74" height="74"/>
                                 <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="60"/>
                                 <inset key="contentEdgeInsets" minX="1" minY="6" maxX="0.0" maxY="0.0"/>
                                 <state key="normal" title="5">
@@ -410,7 +418,7 @@
                                 </userDefinedRuntimeAttributes>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="tailTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hS0-nY-uwu" customClass="UIHexButton">
-                                <rect key="frame" x="91" y="220" width="74" height="74"/>
+                                <rect key="frame" x="91" y="201" width="74" height="74"/>
                                 <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="60"/>
                                 <inset key="contentEdgeInsets" minX="1" minY="6" maxX="0.0" maxY="0.0"/>
                                 <state key="normal" title="1">
@@ -429,7 +437,7 @@
                                 </userDefinedRuntimeAttributes>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="tailTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="og9-Da-pBk" customClass="UIHexButton">
-                                <rect key="frame" x="-5" y="55" width="74" height="74"/>
+                                <rect key="frame" x="-5" y="36" width="74" height="74"/>
                                 <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="48"/>
                                 <inset key="contentEdgeInsets" minX="1" minY="4" maxX="0.0" maxY="0.0"/>
                                 <state key="normal" title=" ÷">
@@ -448,7 +456,7 @@
                                 </userDefinedRuntimeAttributes>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="tailTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z35-XJ-kMh" customClass="UIHexButton">
-                                <rect key="frame" x="283" y="110" width="74" height="74"/>
+                                <rect key="frame" x="283" y="91" width="74" height="74"/>
                                 <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="48"/>
                                 <inset key="contentEdgeInsets" minX="1" minY="5" maxX="0.0" maxY="0.0"/>
                                 <state key="normal" title="±">
@@ -467,7 +475,7 @@
                                 </userDefinedRuntimeAttributes>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="tailTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T6J-rZ-YVE" customClass="UIHexButton">
-                                <rect key="frame" x="27" y="110" width="74" height="74"/>
+                                <rect key="frame" x="27" y="91" width="74" height="74"/>
                                 <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="48"/>
                                 <inset key="contentEdgeInsets" minX="1" minY="5" maxX="0.0" maxY="0.0"/>
                                 <state key="normal" title="%">
@@ -486,7 +494,7 @@
                                 </userDefinedRuntimeAttributes>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="tailTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ScD-0V-E1q" customClass="UIHexButton">
-                                <rect key="frame" x="315" y="165" width="74" height="74"/>
+                                <rect key="frame" x="315" y="146" width="74" height="74"/>
                                 <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="48"/>
                                 <inset key="contentEdgeInsets" minX="1" minY="3" maxX="0.0" maxY="0.0"/>
                                 <state key="normal" title="+ ">
@@ -505,7 +513,7 @@
                                 </userDefinedRuntimeAttributes>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="tailTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dHq-xm-Fod" customClass="UIHexButton">
-                                <rect key="frame" x="315" y="275" width="74" height="74"/>
+                                <rect key="frame" x="315" y="256" width="74" height="74"/>
                                 <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="48"/>
                                 <inset key="contentEdgeInsets" minX="1" minY="3" maxX="0.0" maxY="0.0"/>
                                 <state key="normal">
@@ -524,7 +532,7 @@
                                 </userDefinedRuntimeAttributes>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="tailTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Xt-Xo-qnH" customClass="UIHexButton">
-                                <rect key="frame" x="-5" y="275" width="74" height="74"/>
+                                <rect key="frame" x="-5" y="256" width="74" height="74"/>
                                 <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="48"/>
                                 <inset key="contentEdgeInsets" minX="1" minY="3" maxX="0.0" maxY="0.0"/>
                                 <state key="normal">
@@ -543,7 +551,7 @@
                                 </userDefinedRuntimeAttributes>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="tailTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UVS-IF-Odm" customClass="UIHexButton">
-                                <rect key="frame" x="315" y="55" width="74" height="74"/>
+                                <rect key="frame" x="315" y="36" width="74" height="74"/>
                                 <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="48"/>
                                 <inset key="contentEdgeInsets" minX="1" minY="3" maxX="0.0" maxY="0.0"/>
                                 <state key="normal" title="- ">
@@ -562,7 +570,7 @@
                                 </userDefinedRuntimeAttributes>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="tailTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OlB-mb-tGT" customClass="UIHexButton">
-                                <rect key="frame" x="59" y="275" width="74" height="74"/>
+                                <rect key="frame" x="59" y="256" width="74" height="74"/>
                                 <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="27"/>
                                 <inset key="contentEdgeInsets" minX="0.0" minY="8" maxX="0.0" maxY="0.0"/>
                                 <state key="normal" image="PointMoveLeft.png">
@@ -581,7 +589,7 @@
                                 </userDefinedRuntimeAttributes>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="tailTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ExN-0V-ZHG" customClass="UIHexButton">
-                                <rect key="frame" x="283" y="220" width="74" height="74"/>
+                                <rect key="frame" x="283" y="201" width="74" height="74"/>
                                 <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="48"/>
                                 <inset key="contentEdgeInsets" minX="1" minY="3" maxX="0.0" maxY="0.0"/>
                                 <state key="normal" title="=">
@@ -600,7 +608,7 @@
                                 </userDefinedRuntimeAttributes>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="tailTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WYE-LM-q2f" customClass="UIHexButton">
-                                <rect key="frame" x="123" y="275" width="74" height="74"/>
+                                <rect key="frame" x="123" y="256" width="74" height="74"/>
                                 <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="28"/>
                                 <inset key="contentEdgeInsets" minX="1" minY="3" maxX="0.0" maxY="0.0"/>
                                 <state key="normal" title="00">
@@ -619,7 +627,7 @@
                                 </userDefinedRuntimeAttributes>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="tailTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KPL-VC-15P" customClass="UIHexButton">
-                                <rect key="frame" x="-5" y="165" width="74" height="74"/>
+                                <rect key="frame" x="-5" y="146" width="74" height="74"/>
                                 <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="48"/>
                                 <inset key="contentEdgeInsets" minX="1" minY="6" maxX="0.0" maxY="0.0"/>
                                 <state key="normal" title=" ×">
@@ -638,7 +646,7 @@
                                 </userDefinedRuntimeAttributes>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="tailTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dmh-7L-cWd" customClass="UIHexButton">
-                                <rect key="frame" x="27" y="220" width="74" height="74"/>
+                                <rect key="frame" x="27" y="201" width="74" height="74"/>
                                 <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="60"/>
                                 <inset key="contentEdgeInsets" minX="1" minY="-5" maxX="0.0" maxY="0.0"/>
                                 <state key="normal" title=".">
@@ -657,7 +665,7 @@
                                 </userDefinedRuntimeAttributes>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="tailTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1RR-O4-GDd" customClass="UIHexButton">
-                                <rect key="frame" x="251" y="275" width="74" height="74"/>
+                                <rect key="frame" x="251" y="256" width="74" height="74"/>
                                 <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="27"/>
                                 <inset key="contentEdgeInsets" minX="0.0" minY="8" maxX="0.0" maxY="0.0"/>
                                 <state key="normal" image="PointMoveRight.png">
@@ -676,7 +684,7 @@
                                 </userDefinedRuntimeAttributes>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="tailTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="04Z-Pa-Gae" customClass="UIHexButton">
-                                <rect key="frame" x="187" y="275" width="74" height="74"/>
+                                <rect key="frame" x="187" y="256" width="74" height="74"/>
                                 <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="28"/>
                                 <inset key="contentEdgeInsets" minX="1" minY="3" maxX="0.0" maxY="0.0"/>
                                 <state key="normal" title=".00">
@@ -695,7 +703,7 @@
                                 </userDefinedRuntimeAttributes>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="tailTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HIy-Ci-krS" customClass="UIHexButton">
-                                <rect key="frame" x="27" y="330" width="74" height="74"/>
+                                <rect key="frame" x="27" y="311" width="74" height="74"/>
                                 <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="18"/>
                                 <inset key="contentEdgeInsets" minX="2" minY="2" maxX="0.0" maxY="0.0"/>
                                 <state key="normal" title="THIS">
@@ -714,7 +722,7 @@
                                 </userDefinedRuntimeAttributes>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="tailTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7fv-Oh-iP3" customClass="UIHexButton">
-                                <rect key="frame" x="91" y="330" width="74" height="74"/>
+                                <rect key="frame" x="91" y="311" width="74" height="74"/>
                                 <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="18"/>
                                 <inset key="contentEdgeInsets" minX="2" minY="2" maxX="0.0" maxY="0.0"/>
                                 <state key="normal" title="SPACE">
@@ -733,7 +741,7 @@
                                 </userDefinedRuntimeAttributes>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="tailTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8ZA-Ic-k5H" customClass="UIHexButton">
-                                <rect key="frame" x="155" y="330" width="74" height="74"/>
+                                <rect key="frame" x="155" y="311" width="74" height="74"/>
                                 <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="18"/>
                                 <inset key="contentEdgeInsets" minX="2" minY="2" maxX="0.0" maxY="0.0"/>
                                 <state key="normal">
@@ -752,7 +760,7 @@
                                 </userDefinedRuntimeAttributes>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="tailTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v48-Ou-7gK" customClass="UIHexButton">
-                                <rect key="frame" x="219" y="330" width="74" height="74"/>
+                                <rect key="frame" x="219" y="311" width="74" height="74"/>
                                 <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="18"/>
                                 <inset key="contentEdgeInsets" minX="2" minY="2" maxX="0.0" maxY="0.0"/>
                                 <state key="normal" title="FOR">
@@ -771,7 +779,7 @@
                                 </userDefinedRuntimeAttributes>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="tailTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wGJ-Kn-jO8" customClass="UIHexButton">
-                                <rect key="frame" x="283" y="330" width="74" height="74"/>
+                                <rect key="frame" x="283" y="311" width="74" height="74"/>
                                 <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="18"/>
                                 <inset key="contentEdgeInsets" minX="2" minY="2" maxX="0.0" maxY="0.0"/>
                                 <state key="normal" title="RENT">
