@@ -11,8 +11,6 @@
 		65C2AC681A04C038008F2816 /* UIHexButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 65C2AC671A04C038008F2816 /* UIHexButton.m */; };
 		65D4C6A519FB6A4A00F78E4B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 65D4C6A419FB6A4A00F78E4B /* main.m */; };
 		65D4C6A819FB6A4A00F78E4B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 65D4C6A719FB6A4A00F78E4B /* AppDelegate.m */; };
-		65D4C6AB19FB6A4A00F78E4B /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65D4C6AA19FB6A4A00F78E4B /* FirstViewController.m */; };
-		65D4C6AE19FB6A4A00F78E4B /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65D4C6AD19FB6A4A00F78E4B /* SecondViewController.m */; };
 		65D4C6B119FB6A4A00F78E4B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65D4C6AF19FB6A4A00F78E4B /* Main.storyboard */; };
 		65D4C6B319FB6A4A00F78E4B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65D4C6B219FB6A4A00F78E4B /* Images.xcassets */; };
 		65D4C6B619FB6A4A00F78E4B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65D4C6B419FB6A4A00F78E4B /* LaunchScreen.xib */; };
@@ -38,10 +36,6 @@
 		65D4C6A419FB6A4A00F78E4B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		65D4C6A619FB6A4A00F78E4B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		65D4C6A719FB6A4A00F78E4B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		65D4C6A919FB6A4A00F78E4B /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		65D4C6AA19FB6A4A00F78E4B /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		65D4C6AC19FB6A4A00F78E4B /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		65D4C6AD19FB6A4A00F78E4B /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		65D4C6B019FB6A4A00F78E4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		65D4C6B219FB6A4A00F78E4B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		65D4C6B519FB6A4A00F78E4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -92,10 +86,6 @@
 				65B6DEEF1A00B48100713462 /* round-button.png */,
 				65D4C6A619FB6A4A00F78E4B /* AppDelegate.h */,
 				65D4C6A719FB6A4A00F78E4B /* AppDelegate.m */,
-				65D4C6A919FB6A4A00F78E4B /* FirstViewController.h */,
-				65D4C6AA19FB6A4A00F78E4B /* FirstViewController.m */,
-				65D4C6AC19FB6A4A00F78E4B /* SecondViewController.h */,
-				65D4C6AD19FB6A4A00F78E4B /* SecondViewController.m */,
 				65D4C6AF19FB6A4A00F78E4B /* Main.storyboard */,
 				65D4C6B219FB6A4A00F78E4B /* Images.xcassets */,
 				65D4C6B419FB6A4A00F78E4B /* LaunchScreen.xib */,
@@ -234,9 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65D4C6AE19FB6A4A00F78E4B /* SecondViewController.m in Sources */,
 				65D4C6A819FB6A4A00F78E4B /* AppDelegate.m in Sources */,
-				65D4C6AB19FB6A4A00F78E4B /* FirstViewController.m in Sources */,
 				65C2AC681A04C038008F2816 /* UIHexButton.m in Sources */,
 				65D4C6A519FB6A4A00F78E4B /* main.m in Sources */,
 			);
