@@ -85,18 +85,13 @@
 	
 	[_fillColor set];
 
-	CGContextBeginPath(context);
+	CGPathRef path = [self hexPath];
 
-	CGContextMoveToPoint(context, vertices[0].x, vertices[0].y);
-
-	for (int vertex = 1; vertex < HEXAGON_VERTICES; vertex++)
-	{
-		CGContextAddLineToPoint(context, vertices[vertex].x, vertices[vertex].y);
-	}
-	
-	CGContextClosePath(context);
+	CGContextAddPath(context, path);
 	
   CGContextFillPath(context);
+	
+	CGPathRelease(path);
 }
 
 -(void)drawHexagon
@@ -107,20 +102,29 @@
 	
 	[_lineColor set];
 
-	CGContextBeginPath(context);
+	CGPathRef path = [self hexPath];
 
-	CGContextMoveToPoint(context, vertices[0].x, vertices[0].y);
-
-	for (int vertex = 1; vertex < HEXAGON_VERTICES; vertex++)
-	{
-		CGContextAddLineToPoint(context, vertices[vertex].x, vertices[vertex].y);
-	}
-	
-	CGContextClosePath(context);
+	CGContextAddPath(context, path);
 	
 	CGContextStrokePath(context);
+	
+	CGPathRelease(path);
 }
 
-
+-(CGPathRef)hexPath
+{
+	CGMutablePathRef path = CGPathCreateMutable();
+	
+	CGPathMoveToPoint(path, NULL, vertices[0].x, vertices[0].y);
+ 
+	for (int vertex = 1; vertex < HEXAGON_VERTICES; vertex++)
+	{
+		CGPathAddLineToPoint(path, NULL, vertices[vertex].x, vertices[vertex].y);
+	}
+ 
+	CGPathCloseSubpath(path);
+ 
+	return path;
+}
 
 @end
