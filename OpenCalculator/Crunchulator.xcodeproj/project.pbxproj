@@ -177,7 +177,7 @@
 				TargetAttributes = {
 					65D4C69E19FB6A4A00F78E4B = {
 						CreatedOnToolsVersion = 6.1;
-						DevelopmentTeam = FHVU4DWY8T;
+						DevelopmentTeam = YS47BR4KK8;
 					};
 					65D4C6BA19FB6A4A00F78E4B = {
 						CreatedOnToolsVersion = 6.1;
@@ -362,10 +362,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Daniel Randall (C43UTSP62P)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = OpenCalculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = Crunchulator;
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -373,10 +375,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Daniel Randall (FHVU4DWY8T)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = OpenCalculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = Crunchulator;
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
